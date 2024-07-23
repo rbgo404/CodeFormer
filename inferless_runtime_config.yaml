@@ -1,0 +1,22 @@
+build:
+  cuda_version: "12.1.1"
+  system_packages:
+    - "ffmpeg"
+    - "libsm6"
+    - "libxext6"
+  python_packages:
+    - "addict==2.4.0"
+    - "future==1.0.0"
+    - "lmdb==1.5.1"
+    - "numpy==1.25.0"
+    - "opencv-python==4.10.0.84"
+    - "pillow==10.4.0"
+    - "PyYAML==6.0.1"
+    - "requests==2.32.3"
+    - "scikit-image==0.24.0"
+    - "scipy==1.14.0"
+    - "tb-nightly==2.18.0a20240722"
+    - "torchvision==0.16.0"
+    - "tqdm==4.66.4"
+    - "yapf==0.40.2"
+    - "lpips==0.1.4"
